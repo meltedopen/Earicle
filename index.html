@@ -1,373 +1,461 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Earicle</title>
 
-<head>
-  <title>Earicle</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/styles.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
 
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-  <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
+  <body id="home" data-spy="scroll" data-target="#main-nav">
+    <nav
+      class=" navbar navbar-expand-md  navbar-light sticky-top py-4"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img src="" width="50" height="50" alt="" />
+          <h3 class="d-inline align-md">Earicle</h3>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse">
+          <span class="navbar-togglet-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
-
-
-<body id="home" data-spy="scroll" data-target="#main-nav">
-
-  <nav class=" navbar navbar-expand-md  navbar-light sticky-top py-4" id="main-nav">
-    <div class="container">
-      <a href="#home" class="navbar-brand">
-        <img src="" width="50" height="50" alt="">
-        <h3 class="d-inline align-md">Earicle</h3>
-      </a>
-      <button class="navbar-toggler" data-toggle="collapse">
-        <span class="navbar-togglet-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
-          </li>
-
-          <li class="nav-item">
-            <a href="#creators" class="nav-link">Meet the Creators</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact US</a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a href="#creators" class="nav-link">Meet the Creators</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact US</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
+    <!-- Show Case  -->
 
-  <!-- Show Case  -->
+    <section id="showcase" class="py-5">
+      <div class="primary-overlay text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <h1 class="display-2 mt-5 pt-5">Lorem ipsum dolor sit amet.</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequatur perspiciatis velit quia, labore beatae voluptatibus.
+              </p>
+              <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                <i class="fas fa-arrow-right"> Read More...</i>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="./img/book.png"
+                alt=""
+                class="img-fluid d-none d-lg-block"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="showcase" class="py-5">
-    <div class="primary-overlay text-white">
+    <!-- Boxes  -->
+    <section id="boxes" class="py-5">
+      <div class="container">
+        <div class="col">
+          <div class="col-md-3 py-3">
+            <div class="card text-center border-primary mb-resp">
+              <div class="card-body">
+                <h3 class="text-primary">Lorem ipsum dolor</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sunt, praesentium.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <div class="card text-center bg-primary text-white mb-resp">
+              <div class="card-body">
+                <h3>Lorem ipsum dolor</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sunt, praesentium.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <div class="card text-center border-primary mb-resp">
+              <div class="card-body">
+                <h3 class="text-primary">Lorem ipsum dolor</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sunt, praesentium.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Heading -->
+    <section id="about" class="py-5 text-center bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 text-center">
-            <h1 class="display-2 mt-5 pt-5">Lorem ipsum dolor sit amet.</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Consequatur perspiciatis velit quia, labore beatae voluptatibus.</p>
-            <a href="#" class="btn btn-outline-secondary btn-lg text-white">
-              <i class="fas fa-arrow-right"> Read More...</i>
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <img src="./img/hero_image.jpg" alt="" class="img-fluid d-none d-lg-block">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Boxes  -->
-  <section id="boxes" class="py-5">
-    <div class="container">
-      <div class="col">
-        <div class="col-md-3  py-3">
-          <div class="card text-center border-primary mb-resp">
-            <div class="card-body">
-              <h3 class="text-primary">Lorem ipsum dolor</h3>
-              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, praesentium. </p>
+          <div class="col">
+            <div class="info-header mb-5">
+              <h1 class="text-primary pb-3">Why Earicle?</h1>
+              <p class="lead pb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                est id aliquam odit eveniet. Ratione?
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-3  py-3">
-          <div class="card text-center bg-primary text-white mb-resp">
-            <div class="card-body">
-              <h3>Lorem ipsum dolor</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, praesentium. </p>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-md-5">
+            <h3 class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+              necessitatibus, porro dolorem beatae laudantium ullam laboriosam
+              nihil, blanditiis deserunt cum recusandae aliquid iusto! Velit
+              suscipit eos consequatur nam dignissimos neque!
+            </h3>
+          </div>
+          <div class="col-md-7">
+            <img
+              src="./img/music.jpg"
+              class="img-fluid d-none d-lg-block"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- start card info section -->
+
+      <div class="container pb-5">
+        <div class="row">
+          <!-- start card & text -->
+          <div class="col-md-4 my-auto ml-auto">
+            <div class="col-md-4">
+              <div class="card bg-dark text-white text-center mr-3">
+                <div class="card-body">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 media-body">
+            <h5 class="mt-0 mb-1">List-based media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+            scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+            vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+          <!-- end card & text -->
+        </div>
+      </div>
+      <div class="container pb-5">
+        <div class="row">
+          <!-- start card & text -->
+          <div class="col-md-4 my-auto ml-auto">
+            <div class="col-md-4">
+              <div class="card bg-dark text-white text-center mr-3">
+                <div class="card-body">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 media-body">
+            <h5 class="mt-0 mb-1">List-based media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+            scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+            vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+          <!-- end card & text -->
+        </div>
+      </div>
+      <div class="container pb-5">
+        <div class="row">
+          <!-- start card & text -->
+          <div class="col-md-4 my-auto ml-auto">
+            <div class="col-md-4">
+              <div class="card bg-dark text-white text-center mr-3">
+                <div class="card-body">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 media-body">
+            <h5 class="mt-0 mb-1">List-based media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+            scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+            vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+          <!-- end card & text -->
+        </div>
+      </div>
+
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-md-5">
+            <h3 class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+              necessitatibus, porro dolorem beatae laudantium ullam laboriosam
+              nihil, blanditiis deserunt cum recusandae aliquid iusto! Velit
+              suscipit eos consequatur nam dignissimos neque!
+            </h3>
+          </div>
+          <div class="col-md-7">
+            <img
+              src="./img/music.jpg"
+              class="img-fluid d-none d-lg-block"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Heading -->
+    <section id="about" class="py-5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="info-header mb-5">
+              <h1 class="text-primary pb-3">Why Earicle?</h1>
+              <p class="lead pb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                est id aliquam odit eveniet. Ratione?
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-3  py-3">
-          <div class="card text-center border-primary mb-resp">
-            <div class="card-body">
-              <h3 class="text-primary">Lorem ipsum dolor</h3>
-              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, praesentium. </p>
+      </div>
+    </section>
+
+    <!-- Creators -->
+    <section id="creators" class="my-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="info-header mb-5">
+              <h1 class="text-primary pb-3">Meet the Creators</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                deserunt mollitia aperiam, beatae odit maxime!
+              </p>
             </div>
           </div>
         </div>
-
-      </div>
-    </div>
-
-  </section>
-
-  <!-- About Heading -->
-  <section id="about" class="py-5 text-center bg-light">
-    <dvi class="container">
-      <div class="row">
-        <div class="col">
-          <div class="info-header mb-5">
-            <h1 class="text-primary pb-3">Why Earicle?</h1>
-            <p class="lead pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere est id aliquam odit
-              eveniet. Ratione?</p>
-          </div>
-        </div>
-      </div>
-    </dvi>
-
-
-  </section>
-
-
-  <section id="about">
-    <div class="container pb-5">
-      <div class="row">
-        <div class="col-md-7">
-          <img src="./img/music.jpg" class="img-fluid d-none d-lg-block" alt="">
-        </div>
-        <div class="col-md-5">
-          <h3 class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni necessitatibus, porro
-            dolorem beatae laudantium ullam laboriosam nihil, blanditiis deserunt cum recusandae aliquid iusto! Velit
-            suscipit eos consequatur nam dignissimos neque!</p>
-          </h3>
-        </div>
-      </div>
-    </div>
-
-    <div class="container pb-5">
-      <div class="row">
-        <div class="col-md-7">
-          <h3 class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni necessitatibus, porro
-            dolorem beatae laudantium ullam laboriosam nihil, blanditiis deserunt cum recusandae aliquid iusto! Velit
-            suscipit eos consequatur nam dignissimos neque!</p>
-          </h3>
-        </div>
-
-        <div class="col-md-5">
-          <div class="card-column">
-
-            <div class="card my-3 text-center border-primary mb-resp" style="max-width: 10rem;">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
               <div class="card-body">
-                <h4 class="text-primary">Lorem ipsum</h3>
-                  <p class="text-muted">Lorem ipsum dolor</p>
-              </div>
-            </div>
-          
-
-            
-      
-                  <div class="card my-3 text-center bg-primary mb-resp" style="max-width: 10rem;">
-                    <div class="card-body">
-                      <h4 class="text-white">Lorem ipsum</h3>
-                        <p class="text-white">Lorem ipsum dolor</p>
-                    </div>
+                <img
+                  src="./img/person1.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle w-50 mb-3"
+                />
+                <h3>Ghenet A.</h3>
+                <h5 class="text-muted">Developer</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea,
+                  nisi voluptatem. Earum ipsam nostrum beatae.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-linkedin"></i></a>
                   </div>
-
-
-                  
-            
-                        <div class="card my-3 text-center border-primary mb-resp" style="max-width: 10rem;">
-                          <div class="card-body">
-                            <h4 class="text-primary">Lorem ipsum</h3>
-                              <p class="text-muted">Lorem ipsum dolor</p>
-                          </div>
-                        </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-    </div>
-
-    <div class="container pb-5">
-      <div class="row">
-        <div class="col-md-7">
-          <img src="./img/music.jpg" class="img-fluid d-none d-lg-block" alt="">
-        </div>
-        <div class="col-md-5">
-          <h3 class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni necessitatibus, porro
-            dolorem beatae laudantium ullam laboriosam nihil, blanditiis deserunt cum recusandae aliquid iusto! Velit
-            suscipit eos consequatur nam dignissimos neque!</p>
-          </h3>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- About Heading -->
-  <section id="about" class="py-5 text-center bg-light">
-    <dvi class="container">
-      <div class="row">
-        <div class="col">
-          <div class="info-header mb-5">
-            <h1 class="text-primary pb-3">Why Earicle?</h1>
-            <p class="lead pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere est id aliquam odit
-              eveniet. Ratione?</p>
-          </div>
-        </div>
-      </div>
-    </dvi>
-
-
-  </section>
-
-
-  <!-- Creators -->
-  <section id="creators" class="my-5 text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="info-header mb-5">
-            <h1 class="text-primary pb-3">Meet the Creators</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt mollitia aperiam,
-              beatae odit maxime!</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <img src="./img/person1.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-              <h3>Ghenet A.</h3>
-              <h5 class="text-muted">Developer</h5>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, nisi voluptatem. Earum ipsam nostrum
-                beatae.</p>
-              <div class="d-flex justify-content-center">
-                <div class="p-4">
-                  <a href=""><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="p-4">
-                  <a href=""><i class="fab fa-facebook"></i></a>
-                </div>
-                <div class="p-4">
-                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </div>
                 </div>
               </div>
+            </div>
+          </div>
 
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="./img/person2.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle w-50 mb-3"
+                />
+                <h3>Nicole Rios</h3>
+                <h5 class="text-muted">Developer</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea,
+                  nisi voluptatem. Earum ipsam nostrum beatae.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="./img/person3.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle w-50 mb-3"
+                />
+                <h3>Isaac Chang</h3>
+                <h5 class="text-muted">Developer</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea,
+                  nisi voluptatem. Earum ipsam nostrum beatae.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="./img/person4.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle w-50 mb-3"
+                />
+                <h3>Rishika Goyal</h3>
+                <h5 class="text-muted">Developer</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea,
+                  nisi voluptatem. Earum ipsam nostrum beatae.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <img src="./img/person2.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-              <h3>Nicole Rios</h3>
-              <h5 class="text-muted">Developer</h5>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, nisi voluptatem. Earum ipsam nostrum
-                beatae.</p>
-              <div class="d-flex justify-content-center">
-                <div class="p-4">
-                  <a href=""><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="p-4">
-                  <a href=""><i class="fab fa-facebook"></i></a>
-                </div>
-                <div class="p-4">
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <img src="./img/person3.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-              <h3>Isaac Chang</h3>
-              <h5 class="text-muted">Developer</h5>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, nisi voluptatem. Earum ipsam nostrum
-                beatae.</p>
-              <div class="d-flex justify-content-center">
-                <div class="p-4">
-                  <a href=""><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="p-4">
-                  <a href=""><i class="fab fa-facebook"></i></a>
-                </div>
-                <div class="p-4">
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <img src="./img/person4.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-              <h3>Rishika Goyal</h3>
-              <h5 class="text-muted">Developer</h5>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, nisi voluptatem. Earum ipsam nostrum
-                beatae.</p>
-              <div class="d-flex justify-content-center">
-                <div class="p-4">
-                  <a href=""><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="p-4">
-                  <a href=""><i class="fab fa-facebook"></i></a>
-                </div>
-                <div class="p-4">
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- News letter -->
 
-  <!-- News letter -->
-
-
-  <section id="newsletter" class="bg-dark text-white py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Name">
-
-        </div>
-        <div class="col-md-4">
-          <input type="email" class="form-control form-control-lg mb-resp" placeholder="Enter Email">
-
-        </div>
-        <div class="col-md-4">
-          <button class="btn btn-primary btn-lg btn-block">
-            <i class="fas fa-envelope-open"></i>
-            Subscribe
-          </button>
+    <section id="newsletter" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control form-control-lg mb-resp"
+              placeholder="Enter Name"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              type="email"
+              class="form-control form-control-lg mb-resp"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-primary btn-lg btn-block">
+              <i class="fas fa-envelope-open"></i>
+              Subscribe
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-</body>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
