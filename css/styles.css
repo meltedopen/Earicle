@@ -50,3 +50,15 @@ body {
 #about .card {
     margin: 0 auto
 }
+
+/* ---------------- */
+
+.first-name-field:invalid {
+    background-color: red;
+  } 
+
+.success-message {
+    color: green;
+    font-style: italic;
+    margin-bottom: 1em;
+}
