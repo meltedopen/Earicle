@@ -28,12 +28,12 @@ h5 {
 .navbar .nav-item {
   font-size: 1.4rem;
   padding-right: 1.4rem;
-  float: right;
 }
 
 #showcase {
   position: relative;
-  background-image: url('../img/2.jpg');
+  background-image: url('../img/22.png');
+  background-size: contain;
   height: 600px;
 }
 
@@ -43,7 +43,7 @@ h5 {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 46em; /* Full width */
+  width: 48em; /* Full width */
   padding: 20px; /* Some padding */
   border-radius: 15px 50px 30px 5px;
 }
@@ -125,11 +125,12 @@ form {
 #gradient-image {
   position: relative;
   min-height: 800px;
-  background: url('../img/gradient.png');
+  background: url('../img/gradient1.png');
   background-size: contain;
   /* background-attachment: fixed;
-  background-repeat: no-repeat;
+  
   /* width: 100%; */
+  background-repeat: no-repeat;
   height: auto;
   width: auto;
 }
@@ -144,7 +145,7 @@ form {
 } */
 
 #sticky {
-  margin-top: 1em;
+  margin-top: 10em;
   position: -webkit-sticky;
   position: sticky;
   top: 4rem;
