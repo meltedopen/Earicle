@@ -43,6 +43,16 @@ h5 {
   width: 100%;
   height: 100%;
 }
+
+form{
+  background: #22333b;
+  color: white;
+  
+}
+#mc_embed_signup_scroll{
+ max-width: 50%;
+ margin: auto;
+}
 .info-header {
   width: 50%;
   margin: auto;
