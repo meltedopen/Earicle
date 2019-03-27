@@ -37,6 +37,21 @@ h5 {
   height: 600px;
 }
 
+.showcase-text {
+  position: relative; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 46em; /* Full width */
+  padding: 20px; /* Some padding */
+  border-radius: 15px 50px 30px 5px;
+}
+
+.showcase-button {
+  position: bottom;
+}
+
 #showcase .primary-overlay {
   background: hsla(198, 17%, 15%, 0.8);
   position: absolute;
@@ -46,14 +61,13 @@ h5 {
   height: 100%;
 }
 
-form{
+form {
   background: #22333b;
   color: white;
-  
 }
-#mc_embed_signup_scroll{
- max-width: 50%;
- margin: auto;
+#mc_embed_signup_scroll {
+  max-width: 50%;
+  margin: auto;
 }
 .info-header {
   width: 50%;
@@ -115,8 +129,7 @@ form{
   background-size: cover;
   /* background-attachment: fixed;
   background-repeat: no-repeat; */
-  text-align: center;
-  color: #fff;
+
   height: 100%;
 }
 /* .showcase-img {
@@ -130,8 +143,18 @@ form{
 } */
 
 #sticky {
-  margin-top: 5em;
+  margin-top: 1em;
   position: -webkit-sticky;
   position: sticky;
   top: 4rem;
+}
+
+.showcase-btn {
+  background: #82e5de;
+  color: #22333b;
+}
+
+.showcase-btn:hover {
+  color: #82e5de;
+  background: #22333b;
 }
