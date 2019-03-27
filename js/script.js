@@ -6,11 +6,11 @@ $(document).ready(function() {
   $('body').scrollspy({ target: '#main-nav' });
 
   // Smooth Scrolling
-  $('#main-nav a').click(function(e) {
-    e.preventDefault();
+  // $('#main-nav a').click(function(e) {
+  //   e.preventDefault();
 
-    var targetElement = $(this).attr('href');
-    var targetPosition = $(targetElement).offset().top;
-    $('html, body').animate({ scrollTop: targetPosition - 50 }, 'slow');
-  });
+  //   var targetElement = $(this).attr('href');
+  //   var targetPosition = $(targetElement).offset().top;
+  //   $('html, body').animate({ scrollTop: targetPosition - 50 }, 'slow');
+  // });
 });

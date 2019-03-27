@@ -1,5 +1,9 @@
+*,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  margin-top: 105px;
   background-color: #effffe;
 }
 
@@ -32,7 +36,7 @@ h5 {
 }
 
 #showcase .primary-overlay {
-  background: rgba(32, 41, 45, 0.8);
+  background: hsla(198, 17%, 15%, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -42,18 +46,18 @@ h5 {
 .info-header {
   width: 50%;
   margin: auto;
-  border-bottom: 1px #82e5de solid;
+  border-bottom: 1px #22333b solid;
 }
 
 #creators img {
   margin-top: -50px;
 }
 #creators .card:hover {
-  background: #22333b;
-  color: #fff;
+  background: #a3a7aa;
+  color: #effffe;
 }
 #creators .fab {
-  color: #82e5de;
+  color: #22333b;
 }
 
 .mb-resp {
@@ -67,29 +71,29 @@ h5 {
 
 #aboutHeading,
 #creatorsHeading {
+  color: #22333b;
+  background: #effffe;
+}
+
+#about {
+  color: #22333b;
+}
+
+#creators .card {
   background: #22333b;
   color: #effffe;
 }
 
-#about {
-  color: #20292d;
-}
-
-#creators .card {
-  color: #20292d;
-  background: #82e5de;
-}
-
 #creators .card:hover .creatorRole {
-  color: #82e5de;
+  color: #22333b;
 }
 
 #creators .card .creatorRole {
-  color: #20292d;
+  color: #82e5de;
 }
 
 #main-footer {
-  background: #20292d;
+  background: #a3a7aa;
 }
 
 #gradient-image {
@@ -102,4 +106,20 @@ h5 {
   text-align: center;
   color: #fff;
   height: 100%;
+}
+/* .showcase-img {
+  margin-top: 30em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#sticky {
+  margin-top: 5em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4rem;
 }
