@@ -2,6 +2,20 @@ body {
   margin-top: 105px;
   background-color: #effffe;
 }
+
+h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Exo 2', sans-serif;
+}
+
 .navbar {
   box-shadow: 2px 2px 5px #3292a6;
   opacity: 0.9;
@@ -76,4 +90,16 @@ body {
 
 #main-footer {
   background: #20292d;
+}
+
+#gradient-image {
+  position: relative;
+  min-height: 900px;
+  background: url('../img/4.png');
+  background-size: cover;
+  /* background-attachment: fixed;
+  background-repeat: no-repeat; */
+  text-align: center;
+  color: #fff;
+  height: 100%;
 }
