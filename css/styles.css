@@ -1,10 +1,11 @@
 body {
   margin-top: 105px;
+  background-color: #effffe;
 }
 .navbar {
   box-shadow: 2px 2px 5px #3292a6;
   opacity: 0.9;
-  background: #fff;
+  background: #eefffe;
 }
 .navbar .nav-item {
   font-size: 1.4rem;
@@ -12,12 +13,12 @@ body {
 }
 #showcase {
   position: relative;
-  background-image: url('../img/mountains.jpg');
+  background-image: url('../img/2.jpg');
   height: 600px;
 }
 
 #showcase .primary-overlay {
-  background: rgba(50, 146, 166, 0.8);
+  background: rgba(32, 41, 45, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -27,24 +28,52 @@ body {
 .info-header {
   width: 50%;
   margin: auto;
-  border-bottom: 1px #ddd solid;
+  border-bottom: 1px #82e5de solid;
 }
 
 #creators img {
   margin-top: -50px;
 }
 #creators .card:hover {
-  background: #ec6262;
+  background: #22333b;
   color: #fff;
 }
 #creators .fab {
-  color: #fff;
+  color: #82e5de;
 }
 
 .mb-resp {
   margin-bottom: 1 rem;
 }
 
-/* #about .card {
-    margin: 0 auto
-} */
+#about .container .card {
+  min-height: 150px;
+  min-width: 150px;
+}
+
+#aboutHeading,
+#creatorsHeading {
+  background: #22333b;
+  color: #effffe;
+}
+
+#about {
+  color: #20292d;
+}
+
+#creators .card {
+  color: #20292d;
+  background: #82e5de;
+}
+
+#creators .card:hover .creatorRole {
+  color: #82e5de;
+}
+
+#creators .card .creatorRole {
+  color: #20292d;
+}
+
+#main-footer {
+  background: #20292d;
+}
