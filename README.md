@@ -7,3 +7,6 @@ Earicle and letting the user subscribe.
 
 
 ![](https://cdn.glitch.com/d776f221-4149-426d-9f2b-4dadbef42f07%2FScreen%20Shot%202019-04-01%20at%202.42.45%20PM.png?1554154986557)
+
+Technology Used:
+ HTML, CSS, Bootstrap
